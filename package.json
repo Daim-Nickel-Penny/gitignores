@@ -1,13 +1,21 @@
 {
   "name": "gitignores",
-  "version": "1.0.0",
-  "description": "Easily create .gitignore files for your projects",
+  "version": "1.1.2",
+  "description": "Easily create .gitignore files for your projects using cli.",
   "main": "index.js",
   "type": "module",
   "bin": {
     "gitignores": "index.js",
     "gitign": "index.js"
   },
+  "keywords": [
+    "gitignore",
+    "gitignores",
+    "git",
+    "gitignore",
+    "gitignore-generator",
+    "gitignore-templates"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
