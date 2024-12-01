@@ -54,7 +54,7 @@ export const findClosestMatch = (input, choices) => {
       type: "text",
       name: "gitignoreName",
       message: chalk.cyan(
-        "Enter the name of the gitignore template (e.g., node, python):"
+        "Enter the name of the gitignore template (e.g., node, flask):"
       ),
       format: (val) => val.toLowerCase().trim(),
     });
@@ -97,7 +97,9 @@ export const findClosestMatch = (input, choices) => {
         );
       } else {
         console.error(
-          chalk.red(`✘ Template '${gitignoreName}' not found in the database.`)
+          chalk.red(
+            `Ouch! Template '${gitignoreName}' not found in the database.`
+          )
         );
       }
     }
