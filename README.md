@@ -1,4 +1,8 @@
-# `gitignores` CLI Tool
+# `gitignores` NPM Package
+
+```
+npm i -g gitignores
+```
 
 ---
 
